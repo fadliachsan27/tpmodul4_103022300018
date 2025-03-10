@@ -1,0 +1,7 @@
+E:\Kuliah\TugasSemester4\Kontruksi Perangkat Lunak (KPL)\tpmodul4_103022300018\bin\Debug\tpmodul4_103022300018.exe.config
+E:\Kuliah\TugasSemester4\Kontruksi Perangkat Lunak (KPL)\tpmodul4_103022300018\bin\Debug\tpmodul4_103022300018.exe
+E:\Kuliah\TugasSemester4\Kontruksi Perangkat Lunak (KPL)\tpmodul4_103022300018\bin\Debug\tpmodul4_103022300018.pdb
+E:\Kuliah\TugasSemester4\Kontruksi Perangkat Lunak (KPL)\tpmodul4_103022300018\obj\Debug\tpmodul4_103022300018.csproj.AssemblyReference.cache
+E:\Kuliah\TugasSemester4\Kontruksi Perangkat Lunak (KPL)\tpmodul4_103022300018\obj\Debug\tpmodul4_103022300018.csproj.CoreCompileInputs.cache
+E:\Kuliah\TugasSemester4\Kontruksi Perangkat Lunak (KPL)\tpmodul4_103022300018\obj\Debug\tpmodul4_103022300018.exe
+E:\Kuliah\TugasSemester4\Kontruksi Perangkat Lunak (KPL)\tpmodul4_103022300018\obj\Debug\tpmodul4_103022300018.pdb
