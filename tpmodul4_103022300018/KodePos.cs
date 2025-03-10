@@ -6,32 +6,47 @@ using System.Threading.Tasks;
 
 namespace tpmodul4_103022300018
 {
-    class KodePos
+    public class KodePos
     {
-        private static readonly Dictionary<string, string> kodePosTable = new Dictionary<string, string>
-    {
-        {"Batununggal", "40266"},
-        {"A. Kujangsari", "40287"},
-        {"Mengger", "40267"},
-        {"Wates", "40256"},
-        {"Cijaura", "40287"},
-        {"Jatisari", "40286"},
-        {"Margasari", "40286"},
-        {"Sekejati", "40286"},
-        {"Kebonwaru", "40272"},
-        {"Maleer", "40274"},
-        {"Samoja", "40273"}
-    };
+        private Dictionary<string, string> daftarKodePos;
 
-        public static string GetKodePos(string kelurahan)
+        public KodePos()
         {
-            if (kodePosTable.TryGetValue(kelurahan, out string kodePos))
+            // Menginisialisasi tabel kode pos dengan teknik table-driven
+            daftarKodePos = new Dictionary<string, string>
+        {
+            { "Batununggal", "40266" },
+            { "A. Kujangsari", "40287" },
+            { "Mengger", "40267" },
+            { "Wates", "40256" },
+            { "Cijaura", "40287" },
+            { "Jatisari", "40286" },
+            { "Margasari", "40286" },
+            { "Sekejati", "40286" },
+            { "Kebonwaru", "40272" },
+            { "Maleer", "40274" },
+            { "Samoja", "40273" }
+        };
+        }
+
+        public string GetKodePos(string kelurahan)
+        {
+            if (daftarKodePos.ContainsKey(kelurahan))
             {
-                return kodePos;
+                return daftarKodePos[kelurahan];
             }
             else
             {
-                return "Kode pos tidak ditemukan";
+                return "Kode Pos tidak ditemukan";
+            }
+        }
+
+        public void TampilkanSemuaKodePos()
+        {
+            Console.WriteLine("Daftar Kode Pos:");
+            foreach (var entry in daftarKodePos)
+            {
+                Console.WriteLine($"{entry.Key}: {entry.Value}");
             }
         }
     }
